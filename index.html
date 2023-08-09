@@ -79,7 +79,7 @@
         pdf.addImage(imgData, 'PNG', 0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight());
 
         // Gera um nome de arquivo único para o PDF
-        const filename = 'documento_' + Date.now() + '.pdf';
+        const filename = 'documento' + '.pdf';
 
         // Obtém a URL do PDF
         const pdfUrl = pdf.output('bloburl');

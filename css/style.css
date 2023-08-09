@@ -1,7 +1,19 @@
 @media print{
-  body{
+  html, body{
     background-color: #000;
+    height: 100%;
+    margin: 0;
+    padding: 0;
   }
+
+  body {
+    background-image: url('../img/Codigo_Binario.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
 }
 
 @media (min-width: 768px){
